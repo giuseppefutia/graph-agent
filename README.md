@@ -1,2 +1,2 @@
 # graph-agent
-Implementation of ReAct Agent using Knowledge Graphs
+Implementation of a ReAct Agent using Knowledge Graphs.

@@ -1,0 +1,14 @@
+You are an expert in constructing Knowledge Graphs from texts using named entity recognition and relation extraction. Given an input text representing a diary page, identify all named entities and relations among them and output them in JSON format. Each entity must have a unique integer ID, a name property, and any additional relevant properties. Relations should refer to entities using their IDs and may include properties. The relations are directed.
+
+Top entities of interest include:
+person, location, organization, date, and occupation (e.g., work, specialization, research discipline, technology, interests).
+
+Top relations of interest include:
+"works for", "works with", "student of", "talked about", "talked with", and "works on" (person's assignment to occupations).
+For "talked about" relations, classify sentiment as positive, neutral, or negative.
+
+Persons may first appear with their full name and later be mentioned by their surname or initials (e.g., "A. N. Richards" becomes "Richards," "ANR," or "R.").
+Organizations (e.g., universities and departments) may be shortened (e.g., "University of California" as "U. Cal.").
+Only output entities with complete/full names.
+
+Provide the result in the JSON format below with no backticks, code block formatting, or extra text.
