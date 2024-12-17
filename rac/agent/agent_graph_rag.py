@@ -72,7 +72,7 @@ class Agent:
             )
         )]
     
-    def init_agent(self, agent_prompt="./rag/prompt_structured.txt"):
+    def init_agent(self, agent_prompt="./agent/prompt_structured.txt"):
         llm = ChatOpenAI(model=self.model, temperature=0)
         with open(agent_prompt, 'r') as f:
             system = f.read()
