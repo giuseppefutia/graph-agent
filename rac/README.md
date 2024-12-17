@@ -1,3 +1,4 @@
+# RAC Module
 The content of this module is inspired by the book repository: https://github.com/alenegro81/knowledge-graph-applied-book/.
 
 ## Create a retrieval system for RAC documents
