@@ -2,7 +2,7 @@
 The content of this module is inspired by the book repository: https://github.com/alenegro81/knowledge-graph-applied-book/.
 
 ## Create a retrieval system for RAC documents
-The goal of this module is to create KG from the Rockefeller Archive Center (RAC) documents and an agent that is able to extract information from its contents.
+The goal of this module is to create a KG from the Rockefeller Archive Center (RAC) documents and an agent that is able to extract information from the related contents.
 
 ### Install requirements
 This module's `Makefile` assumes you have a virtual environemnt folder called `venv` 
